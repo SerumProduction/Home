@@ -37,6 +37,15 @@
 	</script>
 
 <!--The Bouncer-->
+		
+<!--Auto Bounce Guests-->
+		<script>
+			altspace.getUser().then(function(result) {
+			if(result.displayName.match(/^Guest*/) && result.displayName.length >= 5)
+			document.getElementById('kick').click();
+			});
+		</script>
+
 		<script>
 		var userID = "";
 		var username = "";
@@ -151,7 +160,7 @@
 		<a id="kick" href="altspace://account.altvr.com/api/spaces/new-user-info"></a>
 		<a-scene 
 			altspace=fullspace:true;
-			sync-system="author: Tr4sh P4nda; app: theHangOut">
+			sync-system="author: Serum; app: Mind-Palace">
 			<a-assets>
 				<a-asset-item 
 					id="couches-obj" 
