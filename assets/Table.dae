@@ -77,7 +77,11 @@
       </extra>
     </light>
   </library_lights>
-  <library_images/>
+  <library_images>
+    <image id="Table_Baked_png" name="Table_Baked_png">
+      <init_from>Table%20Baked.png</init_from>
+    </image>
+  </library_images>
   <library_effects>
     <effect id="Table_Frame-effect">
       <profile_COMMON>
