@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
     </contributor>
-    <created>2017-12-13T19:25:24</created>
-    <modified>2017-12-13T19:25:24</modified>
+    <created>2017-12-13T19:34:25</created>
+    <modified>2017-12-13T19:34:25</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -77,11 +77,7 @@
       </extra>
     </light>
   </library_lights>
-  <library_images>
-    <image id="Table_Baked_png" name="Table_Baked_png">
-      <init_from>Table%20Baked.png</init_from>
-    </image>
-  </library_images>
+  <library_images/>
   <library_effects>
     <effect id="Table_Frame-effect">
       <profile_COMMON>
