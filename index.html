@@ -10,7 +10,7 @@
     <script src='https://sdk.altvr.com/libs/altspace.js/2.6.1/altspace.min.js'></script>
     <script src="https://cdn.rawgit.com/NGenesis/altspacevr-behaviors/v0.8.1/js/altspaceutil.min.js"></script>
     <script src="https://cdn.rawgit.com/AltspaceVR/aframe-altspace-component/v1.3.2/dist/aframe-altspace-component.min.js"></script>
-    <script>
+    <!script>
       altspace.getThreeJSTrackingSkeleton().then(function (skeleton) {
       window.head = skeleton.getJoint('Head');
       });
@@ -39,14 +39,14 @@
 <!--The Bouncer-->
     
 <!--Auto Bounce Guests-->
-    <script>
+    <!script>
       altspace.getUser().then(function(result) {
       if(result.displayName.match(/^Guest*/) && result.displayName.length >= 5)
       document.getElementById('kick').click();
       });
     </script>
 
-    <script>
+    <!script>
     var userID = "";
     var username = "";
     var isMod = "";
