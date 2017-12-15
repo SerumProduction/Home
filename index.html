@@ -10,7 +10,7 @@
     <script src='https://sdk.altvr.com/libs/altspace.js/2.6.1/altspace.min.js'></script>
     <script src="https://cdn.rawgit.com/NGenesis/altspacevr-behaviors/v0.8.1/js/altspaceutil.min.js"></script>
     <script src="https://cdn.rawgit.com/AltspaceVR/aframe-altspace-component/v1.3.2/dist/aframe-altspace-component.min.js"></script>
-    <!script>
+    <!--script>
       altspace.getThreeJSTrackingSkeleton().then(function (skeleton) {
       window.head = skeleton.getJoint('Head');
       });
@@ -23,8 +23,8 @@
         this.el.object3D.lookAt(window.head.position); 
       }
       })
-    </script>
-    <!script type="text/javascript">
+    </script-->
+    <!--script type="text/javascript">
     AFRAME.registerComponent('cursor-interact', {
       schema: {
         uri: { type: 'string' }
@@ -34,19 +34,19 @@
         this.el.addEventListener('cursorup', function() { uri.click(); });
       }
     });
-  </script>
+  </script-->
 
 <!--The Bouncer-->
     
 <!--Auto Bounce Guests-->
-    <!script>
+    <!--script>
       altspace.getUser().then(function(result) {
       if(result.displayName.match(/^Guest*/) && result.displayName.length >= 5)
       document.getElementById('kick').click();
       });
-    </script>
+    </script-->
 
-    <!script>
+    <!--script>
     var userID = "";
     var username = "";
     var isMod = "";
@@ -153,7 +153,7 @@
 //List of whitelisted users who can click the button, the button object, along with the URL the button with redirect users to.
         //whiteListTeleport2(["Serum"], object3, "altspace://account.altvr.com/api/events/642676618313072997");
       });
-    </script>
+    </script-->
   </head>
   <body>
     
